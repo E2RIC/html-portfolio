@@ -1,0 +1,244 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgb(49, 50, 53);
+    color:white;
+}
+
+.container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+
+
+}
+.btn{
+    background-color: rgb(47, 169, 47);
+    padding: 7px;
+    border-radius: 10px;
+    margin: 5px;
+    width: 95px;
+    height: 30px;
+    color:white;
+} 
+.andrea{
+  color:white;
+  position: absolute;
+  left:140px;
+  font-size:50px;
+}
+ul{
+    position: absolute;
+    right: 100px;
+}
+ul li{
+display: inline-block;
+justify-content: space-between;
+
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 60px;
+    margin-top: 40px;
+}
+nav ul li:hover{
+   color:rgb(230, 19, 19);
+    cursor: pointer;
+}
+.button{
+    position:absolute;
+    right: 590px;
+    background-color:rgb(198, 38, 38) ;
+    padding:15px;
+    border-radius: 25px;
+    width: 140px;
+    height: 50px;
+    color:white;
+}
+.button:hover{
+    background-color: aliceblue;
+    color:black;
+}
+.name{
+    text-align: center;
+    color:white;
+    font-size: 50px;
+}
+.para{
+    text-align: center;
+    color:rgb(235, 216, 216);
+}
+ul{
+    color:white;
+    justify-content: flex-end;
+    display: inline-block;
+    align-items: center;
+    
+}
+.e{
+    background-color: azure;
+    border-radius: 50px;
+    font-size: 38px;
+}
+/* this is where css of portfolio starts   */
+
+.header{
+    background-color: rgb(48, 70, 103);
+color:white;
+
+}
+
+.container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    color:black;
+
+
+} 
+.Nav {
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    color: rgb(229, 9, 9);
+    position:fixed;
+}
+.container ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:fixed;
+
+} 
+.container ul li{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
+    justify-content: flex-end;
+    position:fixed;
+}
+.container ul li a{
+    text-decoration:white;
+    position: fixed;
+    color:white;
+    text-align:center;
+
+}
+.container ul li a:hover{
+    color:rgb(255, 0, 0);
+    cursor: pointer;
+
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.row-col-1{
+    flex-basis: 35%;
+}
+.eric{
+    color:rgb(219, 16, 16);
+}
+.me{
+    background-color: rgb(111, 208, 235);
+}
+.p1{
+    color:yellowgreen;
+}
+.row-col-2 img{
+    width: 500px;
+    height: 500px;
+    border-radius: 150px;
+}
+.row-col-2{
+    flex-basis: 60%;
+
+}
+.row-1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* padding: 3rem; */
+  
+}
+.row-1-col-1{
+    flex-basis: 35%;
+}
+.row-1-col-1 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+   
+}
+.row-1-col-2{
+    flex-basis: 60%;
+}
+.h2{
+    color:azure;
+    text-align: center;
+    font-size: xx-large;
+}
+.p{
+    color:white;
+    text-align: center;
+    font-size: xx-large;
+}
+.span{
+    color:brown;
+    font-size: xx-large;
+}
+.h3{
+    color:black;
+    text-align: center;
+}
+.row-3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:3px;
+    margin:auto;
+}
+.row-3-col-1{
+
+    display:inline-block;
+    list-style: none;
+    font-size: 1rem;
+    border:solid rgb(33, 23, 23);
+
+}
+.row-3-col-2{
+    flex-basis: 80%;
+    padding: 3px;
+}
+.fa-solid {
+    padding: 5PX;
+    margin: 5PX;
+}
+form{
+    border-radius: 20px;
+    background-color: rgb(40, 197, 200);
+    color:rgb(30, 14, 14);
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    border:solid rgb(20, 12, 12);
+
+}
+#box{
+    background-color: rgb(218, 21, 21);
+    width: 110px;
+    height: 30px;
+    position: absolute;
+    right: 30px;
+    border-radius: 50px;
+    margin-top: 10px;
+
+}
